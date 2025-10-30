@@ -19,12 +19,13 @@ This service exposes RESTful APIs for the frontend applications and communicates
 
 ### High-Level Architecture
 
+```bash
 Frontend (Next.js / React Native)
-↓
-ng-backend (Core API & Business Logic)
-↓
-├── ng-payment (Payment Service)
-└── Future Services (AI, Notifications, etc.)
+       ↓
+   ng-backend (Core API & Business Logic)
+       ↓
+   ├── ng-payment (Payment Service)
+   └── Future Services (AI, Notifications, etc.)
 
 ---
 
@@ -56,6 +57,8 @@ ng-backend (Core API & Business Logic)
 
 ## Project Structure
 
+```
+
 ng-backend/
 ├── src/
 │ ├── modules/
@@ -79,6 +82,8 @@ ng-backend/
 ├── tsconfig.json
 └── README.md
 
+````
+
 ---
 
 ## Integration with `ng-payment`
@@ -89,7 +94,7 @@ ng-backend/
 - Transaction status updates
 - Refunds and reconciliation
 
-**Communication Pattern:**  
+**Communication Pattern:**
 Primarily via RESTful API (`/api/payments`), with optional support for asynchronous messaging (RabbitMQ or gRPC) in scalable environments.
 
 ---
@@ -101,7 +106,7 @@ Primarily via RESTful API (`/api/payments`), with optional support for asynchron
 ```bash
 git clone https://github.com/yourusername/ng-backend.git
 cd ng-backend
-```
+````
 
 ### 2. Install Dependencies
 
