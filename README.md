@@ -26,6 +26,7 @@ Frontend (Next.js / React Native)
        ↓
    ├── ng-payment (Payment Service)
    └── Future Services (AI, Notifications, etc.)
+```
 
 ---
 
@@ -82,7 +83,7 @@ ng-backend/
 ├── tsconfig.json
 └── README.md
 
-````
+```
 
 ---
 
@@ -106,7 +107,7 @@ Primarily via RESTful API (`/api/payments`), with optional support for asynchron
 ```bash
 git clone https://github.com/yourusername/ng-backend.git
 cd ng-backend
-````
+```
 
 ### 2. Install Dependencies
 
