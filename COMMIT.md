@@ -126,7 +126,7 @@ git add .
 npm run commit
 
 # Push your branch
-git push origin feat/tutor-booking-api
+git push --set-upstream origin feat/tutor-booking-api
 ```
 
 ---
